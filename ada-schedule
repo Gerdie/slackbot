@@ -1,0 +1,2 @@
+# Run on Tuesdays
+0 12 * * Tue /usr/bin/python ~/src/slackbot/adabot.py
