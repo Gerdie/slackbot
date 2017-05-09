@@ -1,2 +1,2 @@
 # Run on Tuesdays
-0 12 * * Tue /usr/bin/python ~/src/slackbot/adabot.py
+0 12 * * Tue expr `date +\%s` / 604800 \% 2 >/dev/null ||  /usr/bin/python ~/src/slackbot/adabot.py
